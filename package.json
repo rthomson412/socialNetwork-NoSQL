@@ -1,0 +1,26 @@
+{
+  "name": "socialnetwork-nosql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rthomson412/socialNetwork-NoSQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rthomson412/socialNetwork-NoSQL/issues"
+  },
+  "homepage": "https://github.com/rthomson412/socialNetwork-NoSQL#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  }
+}
