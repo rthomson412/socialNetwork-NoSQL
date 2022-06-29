@@ -1,4 +1,6 @@
 # socialNetwork-NoSQL
+
+## Overview
 A RESTful social network back end API that uses a NoSQL database, ready for front end development. Made using
 
 `express`  `nodemon`  `mongoose`
@@ -20,5 +22,8 @@ https://drive.google.com/file/d/1ap7BvCE3W-Ksc-6k6yXJsNtoljZsd5qq/view
 - Reactions
 https://drive.google.com/file/d/1ZSDBvJOY7vnGkeRN3zObYaZ6MZ3JYS_7/view
 
+
+## Installation
+You can `git clone` the repo to your local machine and the run `npm install` to acquire the relevant dependencies.
 
 
