@@ -39,7 +39,7 @@ const thoughtController = {
       })
       .then((dbUserData) => {
         if (!dbUserData) {
-          return res.status(404).json({ message: 'Thought created. No user associated.' });
+          return res.status(404).json({ message: 'Thought created.' });
         }
 
         res.json({ message: 'Thought created.' });
@@ -80,7 +80,7 @@ const thoughtController = {
       })
       .then((dbUserData) => {
         if (!dbUserData) {
-          return res.status(404).json({ message: 'Thought created. No user associated.' });
+          return res.status(404).json({ message: 'Thought deleted.' });
         }
         res.json({ message: 'Thought deleted.' });
       })
