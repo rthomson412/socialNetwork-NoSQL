@@ -1,4 +1,9 @@
 # socialNetwork-NoSQL
+A RESTful social network back end API that uses a NoSQL database, ready for front end development. Made using
+
+`express`  `nodemon`  `mongoose`
+
+Application allows CRUD operations to be performed so that users can make friends, add thoughts and have reactions to others thoughts. The deletion of any given user will delete all of their associated thoughts, and any reactions posted therein.
 
 
 ### Walkthrough Videos
